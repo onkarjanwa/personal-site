@@ -1,0 +1,56 @@
+.header {
+}
+
+.header__wrap {
+  align-items: baseline;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+.header__heading {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header__heading span {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-family: Alegreya SC;
+  line-height: 49px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.header__nav {
+  font-size: 1.25rem;
+  margin-top: 0;
+  text-align: right;
+}
+
+.header__link {
+  margin-top: 0;
+  text-decoration: none;
+  box-shadow: none;
+  color: #3872ad;
+  margin-left: 20px;
+}
+
+.header__link span {
+  margin-left: 10px;
+}
+
+.header__link--home {
+  font-size: 2rem;
+  margin-left: -0.25rem;
+}
+
+.header__link:hover,
+.header__link:active,
+.header__link:focus {
+  color: #3872ad;
+  text-decoration: underline;
+}
