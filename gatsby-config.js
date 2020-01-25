@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `OnkarJanwa.com`,
+    author: `Onkar Janwa`,
+    description: `Person website.`,
+    siteUrl: `https://onkarjanwa.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `https://twitter.com/onkarjanwa`,
+      github: `https://github.com/onkarjanwa`,
+      medium: `https://medium.com/@onkarjanwa`,
+      linkedin: `https://www.linkedin.com/in/onkarjanwa`,
     },
   },
   plugins: [
@@ -57,13 +60,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Onkar Janwa`,
+        short_name: `OJ`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -73,6 +76,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-slug`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
