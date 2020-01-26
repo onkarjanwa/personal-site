@@ -64,8 +64,20 @@ footer.page__footer {
   padding-top: 30px;
 }
 
-.articles__container {
+.articles__container, .work__container {
   max-width: 960px;
   margin: auto;
   padding: 1rem 4rem;
+}
+
+.workitem__container {
+  display: flex;
+  margin-bottom: 40px;
+  border: 1px solid #dedede;
+}
+
+.work__container__title {
+  font-size: 2.5rem;
+  color: #000;
+  text-decoration: underline;
 }
