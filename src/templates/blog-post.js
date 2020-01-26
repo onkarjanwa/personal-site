@@ -29,15 +29,15 @@ class BlogPostTemplate extends React.Component {
             >
               {post.frontmatter.title}
             </h1>
-            <p
+            <span>{post.frontmatter.tags[0]}</span>&nbsp;.&nbsp;
+            <span
               style={{
                 ...scale(-1 / 5),
-                display: `block`,
                 marginBottom: rhythm(1),
               }}
             >
               {post.frontmatter.date}
-            </p>
+            </span>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
@@ -98,6 +98,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }

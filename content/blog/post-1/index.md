@@ -3,6 +3,7 @@ title: Comparing Laravel and Yii2
 slug: comparing-laravel-and-yii2
 date: "2017-07-01T22:40:32.169Z"
 description: Google trends and git hub stars shows Laravel is most popular PHP Framework of 2017 and 2018.
+tags: ["Programming"]
 ---
 
 Google trends and git hub stars shows Laravel is most popular PHP Framework of 2017 and 2018. I went through some feature comparison between Laravel and Yii2, here are those comparisons:

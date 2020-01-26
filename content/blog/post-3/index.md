@@ -3,6 +3,7 @@ title: Async/Await in Depth
 slug: async-await-in-depth
 date: "2019-04-20T22:40:32.169Z"
 description: Async function was introduced in ES2017 with two new keywords async and await. The utility of async function is to execute asynchronous code in synchronous way and avoid callback hell.
+tags: ["Programming"]
 ---
 
 ## What this article includes:

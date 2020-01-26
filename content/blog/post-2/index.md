@@ -3,6 +3,7 @@ title: Best resources to learn node.js
 slug: best-resources-to-learn-node
 date: "2019-04-06T22:40:32.169Z"
 description: Best resources to learn node.js
+tags: ["Programming"]
 ---
 
 ## What exactly is Node.js?
