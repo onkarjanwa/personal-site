@@ -10,12 +10,15 @@ class Work extends React.Component {
     console.log(data);
     const works = [
         {
-            image: data.rimtim,
+            image: data.wegift,
             product: {
-                name: 'RimTim',
+                name: 'WeGift',
                 position: 'Manager Development',
-                desc: 'Responsible for continuous feature releases for RimTim on web app, android app and ios app.',
-                url: 'https://www.rimtim.com'
+                desc: `
+                A digital reward product.
+                `,
+                url: 'https://wegift.io',
+                skills: ['PHP', 'Responsive design', 'Grid CSS', 'HTML'],
             }
         },
         {
@@ -23,35 +26,25 @@ class Work extends React.Component {
             product: {
                 name: 'Conx',
                 position: 'Manager Development',
-                desc: 'Responsible for continuous feature releases for RimTim on web app, android app and ios app.',
-                url: 'https://www.infocusconx.com'
+                desc: `
+                A video meetting platform used for collaboration between teams.
+                `,
+                url: 'https://www.infocusconx.com',
+                skills: ['PHP', 'AngularJs', 'Node.js', 'MySQL', 'MongoDB'],
             }
         },
         {
-            image: data.wegift,
+            image: data.rimtim,
             product: {
-                name: 'WeGift',
+                name: 'RimTim',
                 position: 'Manager Development',
-                desc: 'Responsible for continuous feature releases for RimTim on web app, android app and ios app.',
-                url: 'https://wegift.io'
-            }
-        },
-        {
-            image: data.reviewkeg,
-            product: {
-                name: 'ReviewKeg',
-                position: 'Manager Development',
-                desc: 'Responsible for continuous feature releases for RimTim on web app, android app and ios app.',
-                url: 'https://www.reviewkeg.com'
-            }
-        },
-        {
-            image: data.hoojook,
-            product: {
-                name: 'Hoojook',
-                position: 'Manager Development',
-                desc: 'Responsible for continuous feature releases for RimTim on web app, android app and ios app.',
-                url: 'http://www.hoojook.com'
+                desc: `
+                Business online reputataion and reviews platform for indian market. This
+                platform lists reviews from many indian websites and provides a way to engage with
+                the customers.
+                `,
+                url: 'https://www.rimtim.com',
+                skills: ['PHP', 'AngularJs', 'Node.js', 'MySQL', 'MongoDB'],
             }
         },
         {
@@ -59,8 +52,40 @@ class Work extends React.Component {
             product: {
                 name: 'RimTim Ladder',
                 position: 'Manager Development',
-                desc: 'Responsible for continuous feature releases for RimTim on web app, android app and ios app.',
-                url: 'https://www.rimtimladder.com'
+                desc: `
+                A job platform for VCs. This platform lists jobs from most of the indian
+                website and provides a better way to post jobs for VCs and reach out to them.
+                `,
+                url: 'https://www.rimtimladder.com',
+                skills: ['PHP', 'AngularJs', 'Node.js', 'MySQL', 'MongoDB'],
+            }
+        },
+        {
+            image: data.reviewkeg,
+            product: {
+                name: 'ReviewKeg',
+                position: 'Manager Development',
+                desc: `
+                A review management platform for automobile industry. It helps business
+                in collective reviews from customer, improving social presence and building
+                a brand in the competitive market.
+                `,
+                url: 'https://www.reviewkeg.com',
+                skills: ['PHP', 'AngularJs', 'Node.js', 'MySQL', 'MongoDB'],
+            }
+        },
+        {
+            image: data.hoojook,
+            product: {
+                name: 'Hoojook',
+                position: 'Manager Development',
+                desc: `
+                An enterprise platform to automate marketing for automobile industory.
+                It help enterprise run the marketing campaign and generated leads from
+                social media platform like Twitter, Facebook, LinkedIn etc.
+                `,
+                url: 'http://www.hoojook.com',
+                skills: ['PHP', 'AngularJs', 'Node.js', 'MySQL', 'MongoDB'],
             }
         }
     ];
@@ -68,31 +93,44 @@ class Work extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className="work__container">
-        <div className="work__container__title"><span>Products</span></div>
-            {works.map((work, index) => {
-                console.log(work);
-            return (
-                <div className="workitem__container" key={index}>
-                    <div>
-                        <Image
-                            fixed={work.image.childImageSharp.fixed}
-                            style={{
-                                marginRight: 0,
-                                marginBottom: 0,
-                                minWidth: 50,
-                                verticalAlign: `middle`,
-                            }}
-                        />
+        <div className="work__container__title">
+            <h1>Products</h1>
+            <p>I have worked with various products in my 10+ years of experience. Some of intersting products i have listed below.</p>
+        </div>
+        {works.map((work, index) => {
+        return (
+            <div className="workitem__container" key={index}>
+                <div className="product__image">
+                    <Image
+                        fixed={work.image.childImageSharp.fixed}
+                        style={{
+                            marginRight: 0,
+                            marginBottom: 0,
+                            minWidth: 50,
+                            minHeight: 400,
+                            verticalAlign: `middle`,
+                            height: `100%`,
+                        }}
+                    />
+                </div>
+                <div className="product__detail">
+                    <div className="product__detail__name">
+                        <h2>{work.product.name}</h2>
                     </div>
-                    <div>
-                        <div>{work.product.name}</div>
-                        <div>{work.product.position}</div>
-                        <div>{work.product.desc}</div>
-                        <div>{work.product.url}</div>
+                    <div className="product__detail__description">
+                        <p>{work.product.desc}</p>
+                    </div>
+                    <div className="product__detail__skills">
+                        {work.product.skills.map((skill) => {
+                            return (
+                                <span>{skill}</span>
+                            )
+                        })}
                     </div>
                 </div>
-            )
-            })}
+            </div>
+        )
+        })}
         </div>
       </Layout>
     )
