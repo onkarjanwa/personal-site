@@ -21,12 +21,16 @@ main > .article {
 .article ol li, .article ol li > p, .article ul li, .article ul li > p {
   font-size: 16px;
 }
-.article pre {
-  background-color: #eae5e5b8;
+pre {
+  background-color: #2a6085;
   padding: 10px 20px 10px 20px;
   border-radius: 4px;
+  color: #fff;
 }
-.article code {
+code {
   font-size: 16px;
   line-height: 0.5rem;
+}
+code .token.comment {
+    color: #b8abab;
 }
