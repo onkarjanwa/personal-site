@@ -72,7 +72,7 @@ eventEmitter.on('account_created', (data) => {
 
 EventEmitter2 is an implementation of the EventEmitter module found in Node.js. In addition to having a better benchmark performance than EventEmitter and being browser-compatible, it also extends the interface of EventEmitter with many additional non-breaking features. See here for more details [https://github.com/EventEmitter2/EventEmitter2](https://github.com/EventEmitter2/EventEmitter2).
 
-## What is the Event Emitter?
+## References to learn more
 
 - [https://nodejs.org/api/events.html](https://nodejs.org/api/events.html#events_events)
 - [https://github.com/EventEmitter2/EventEmitter2](https://github.com/EventEmitter2/EventEmitter2)
