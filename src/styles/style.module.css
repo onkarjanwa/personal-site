@@ -18,6 +18,9 @@ main > .article {
 .article p {
   font-size: 18px;
 }
+.article ul, .article ol {
+    margin-left: 2rem;
+}
 .article ol li, .article ol li > p, .article ul li, .article ul li > p {
   font-size: 16px;
 }
@@ -27,10 +30,10 @@ pre {
   border-radius: 4px;
   color: #fff;
 }
-code {
+pre code {
   font-size: 16px;
   line-height: 0.5rem;
 }
-code .token.comment {
+pre code .token.comment {
     color: #b8abab;
 }
