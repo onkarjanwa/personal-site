@@ -111,3 +111,23 @@ footer.page__footer {
   display: inline-block;
   padding: 5px;
 }
+
+pre {
+  background-color: #2a6085;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+pre code {
+  font-size: 16px;
+  line-height: 0.5rem;
+}
+pre code .token.comment {
+  color: #b8abab;
+}
+article code.language-text {
+  font-size: initial;
+  background-color: #7c9bb0;
+  color: #fff;
+  padding: 0 5px;
+}

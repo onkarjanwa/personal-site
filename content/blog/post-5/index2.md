@@ -18,7 +18,7 @@ tags: ["Programming"]
 
 ## How to use console.table?
 
-console.table takes one argument data as input and prints data in tabular format. data can be array or array of objects.
+`console.table` takes one argument `data` as input and prints data in tabular format. data can be array or array of objects.
 
 ```js
 console.table(["apple", "orange", "banana"]);
@@ -47,7 +47,8 @@ console.table([{
 2          bananas
 ```
 
-When using array of objects as data, we can restrict column display. console.table support second argument where we can provide columns to show. In below example count field from objects will not display as that argument key is not provided in second argument.
+When using array of objects as data, we can restrict column display. `console.table` support second argument where we can provide columns to show. In below example count field from objects will not display as that argument key is not provided in second argument.
+
 ```js
 console.table([{
     fruit: "apples",
