@@ -125,7 +125,7 @@ pre code {
 pre code .token.comment {
   color: #b8abab;
 }
-article code.language-text {
+article p code.language-text {
   font-size: initial;
   background-color: #7c9bb0;
   color: #fff;
