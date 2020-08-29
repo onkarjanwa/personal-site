@@ -1,10 +1,24 @@
 html, body {
-  font: 100%/1.5 -apple-system, 'Arial';
-  color: #403d3de3;
+  font: 100%/1.5 Avenir, Tahoma, sans-serif;
+  /* color: #403d3de3; */
+  background-color: #fff;
+  font-size: 14px;
 }
 
 h1 {
   font-family: inherit;
+  font-weight: 700;
+  color: rgb(56 113 173 / 0.8);
+}
+
+h2, h3, h4, h5, h6 {
+  color: rgb(56 113 173 / 0.8);
+  font-weight: 500;
+  font-size: 1.53286rem;
+}
+
+p {
+  font-size: 16px;
 }
 
 .homepage__container {
