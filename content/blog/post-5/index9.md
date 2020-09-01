@@ -2,7 +2,7 @@
 title: Preferred online JavaScript Editor
 slug: preferred-online-javaScript-editor
 date: "2020-09-01T22:40:32.169Z"
-description: I am using [playcode.io](https://playcode.io/) to play with JavaScript online.
+description: I am using playcode.io to play with JavaScript online.
 tags: ["Programming", "JavaScript"]
 ---
 
