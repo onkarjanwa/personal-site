@@ -85,5 +85,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-slug`,
+    `gatsby-plugin-sitemap`,
   ],
 }
