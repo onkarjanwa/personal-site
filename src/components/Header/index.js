@@ -62,6 +62,9 @@ const Header = () => {
           <Link to="/articles" className={styles[`header__link`]}>
             Articles
           </Link>
+          <Link to="/work-with-me-to-build-your-product" className={styles[`header__link`]}>
+            About
+          </Link>
         </nav>
       </div>
     </header>
