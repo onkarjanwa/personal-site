@@ -56,9 +56,9 @@ const Header = () => {
           <Link to="/" className={styles[`header__link`]}>
             Home
           </Link>
-          <Link to="/work" className={styles[`header__link`]}>
+          {/* <Link to="/work" className={styles[`header__link`]}>
             Work
-          </Link>
+          </Link> */}
           <Link to="/articles" className={styles[`header__link`]}>
             Articles
           </Link>
