@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 class Marketing extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         <div className="marketing__container">
           <div className="marketing__container__title" style={{textAlign: "center", paddingTop: "50px"}}>
             <img className="marketing__container__photo" style={{width: "100px"}} src="https://blush.design/api/download?shareUri=EibAL5HRk&s=0%7EFFC280&w=800&h=800&fm=png" />
