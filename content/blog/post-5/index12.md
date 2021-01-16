@@ -244,4 +244,8 @@ uploadFile.subscribe({
 // subscribe 2 - upload completed
 ```
 
+## Read More on RxJS
+1. [RxJS - Rewriting setInterval using observable](/xjs-rewriting-set-interval-using-observable).
+2. [RxJS - An Introduction to Subject](/rxjs-an-introduction-to-subject).
+
 There is more to RxJS, we can use with JavaScript Events as well. You will see them in the very next article.
