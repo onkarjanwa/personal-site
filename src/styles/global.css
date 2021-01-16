@@ -127,15 +127,18 @@ footer.page__footer {
   padding: 5px;
 }
 
+code, kbd, pre, samp {
+  font-family: Operator Mono SSm A,Operator Mono SSm B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
+}
 pre {
   background-color: #2a6085;
   padding: 10px 20px 10px 20px;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 8px;
+  color: #ffffffd1;
 }
 pre code {
   font-size: 16px;
-  line-height: 0.5rem;
+  line-height: 28px;
 }
 pre code .token.comment {
   color: #b8abab;
