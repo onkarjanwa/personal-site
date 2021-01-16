@@ -2,7 +2,7 @@
 title: RxJS - An Introduction to Subject
 slug: rxjs-an-introduction-to-subject
 date: "2021-01-16T22:40:32.169Z"
-description: A Subject is a special type of Observable which is also an Observer. We can subscribe a Subject using `.subscribe` method and we can also push values using `.next` method.
+description: A Subject is a special type of Observable which is also an Observer. We can subscribe a Subject using subscribe method and we can also push values using next method.
 tags: ["Programming", "JavaScript", "RxJS"]
 ---
 
