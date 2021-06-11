@@ -1,6 +1,5 @@
 import React from "react"
-import Image from "gatsby-image"
-
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 class Links extends React.Component {
@@ -82,9 +81,10 @@ class Links extends React.Component {
 
     return (
       <Layout>
+        <SEO title="Hire Dedicated Expert Developers | Onkar Janwa" description="Hire dedicated expert developers from MetricsCurve. Links to MetricsCurve website pages." />
         <div className="work__container">
             <div>
-                <h1>Links</h1>
+                <h1>Hire Dedicated Expert Developers</h1>
             </div>
             <ul>
             {links.map(({url, title}, index) => {

@@ -20,7 +20,7 @@ class Layout extends React.Component {
         <footer className="page__footer">
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="/">{author}</a>
+          <a href="/">Onkar Janwa</a>
         </footer>
       </div>
     )
