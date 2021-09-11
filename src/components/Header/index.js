@@ -62,8 +62,8 @@ const Header = () => {
           <Link to="/articles" className={styles[`header__link`]}>
             Articles
           </Link>
-          <Link to="/links" className={styles[`header__link`]}>
-            Links
+          <Link to="http://theremotework.co/" className={styles[`header__link`]}>
+            Remote Jobs And Stories
           </Link>
           <Link to="/work-with-me-to-build-your-product" className={styles[`header__link`]}>
             About
